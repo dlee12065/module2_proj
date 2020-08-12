@@ -54,7 +54,7 @@ h1 {
 }
 
 /********** Large devices only **********/
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .col-lg-4 {
     margin: 20px;
     position: relative;
@@ -63,12 +63,12 @@ h1 {
     border: 3px solid black;
     }
   .col-lg-4 {
-    width: 30%;
+    width: 29%;
   }
 }
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .col-md-6, .col-md-12 {
     position: relative;
     float: left;
@@ -77,14 +77,14 @@ h1 {
     border: 3px solid black;
   }
   .col-md-6 {
-    width: 45%;
+    width: 43%;
   }
   .col-md-12 {
-    width: 93.5%;
+    width: 90%;
   }
 }
 /********** Large devices only **********/
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .col-sm-12 {
     position: relative;
     float: left;
@@ -93,6 +93,6 @@ h1 {
     border: 3px solid black;
   }
   .col-sm-12 {
-    width: 90%;
+    width: 70%;
   }
 }
